@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 412712257743890685}
   - component: {fileID: 507414023172481606}
   - component: {fileID: 5432396285588335812}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Decorative_Throw_Pillow
-  m_TagString: Untagged
+  m_TagString: Vibrateable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -1190,6 +1190,7 @@ GameObject:
   - component: {fileID: 4574081048530111545}
   - component: {fileID: 4574081048530785609}
   - component: {fileID: 4574081048530830093}
+  - component: {fileID: 101764288193091401}
   m_Layer: 8
   m_Name: CustomHandLeft
   m_TagString: Hand
@@ -1266,6 +1267,21 @@ MonoBehaviour:
   m_controller: 1
   m_animator: {fileID: 4479938243163468981}
   m_defaultGrabPose: {fileID: 11437176, guid: 35525acb4c3b75c4a8c4dc2c117427be, type: 3}
+--- !u!114 &101764288193091401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574081048524795357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce89be87572f4014f9209be0936593a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 0
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &4574081048524795797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,6 +2594,7 @@ GameObject:
   - component: {fileID: 4574081049991396882}
   - component: {fileID: 4574081049988459928}
   - component: {fileID: 4574081049988511662}
+  - component: {fileID: 6385036712409460370}
   m_Layer: 8
   m_Name: CustomHandRight
   m_TagString: Hand
@@ -2654,6 +2671,21 @@ MonoBehaviour:
   m_controller: 2
   m_animator: {fileID: 4479954450467045698}
   m_defaultGrabPose: {fileID: 11437176, guid: 35525acb4c3b75c4a8c4dc2c117427be, type: 3}
+--- !u!114 &6385036712409460370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4574081049994572864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce89be87572f4014f9209be0936593a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 1
+  amplitude: 0.5
+  frequency: 1
 --- !u!1 &4574081049994573430
 GameObject:
   m_ObjectHideFlags: 0
