@@ -9,7 +9,7 @@ public class VRButtonY : MonoBehaviour
     //             Made By Thomas
     //------------------------------------------
 
-    [SerializeField] private UnityEvent whenButtonIsPressed;
+    [SerializeField] private UnityEvent whenButtonIsPressed = null;
 
     [Header("Variables")]
     [SerializeField, Range(-0.1f, 0.0f), Tooltip("Button Travel Distance is the distance the button travels inwards until it is stopped. This should always be negative.")] private float buttonTravelDistance;
@@ -23,7 +23,7 @@ public class VRButtonY : MonoBehaviour
     [HideInInspector] private float holdTimeAbsolute = 0;
     [HideInInspector] private int cyclesPassed = 0;
 
-    void Start()
+    private void OnEnable()
     {
         StartPos = transform.position;
         if (numCycles == 0) isInfinite = true;
