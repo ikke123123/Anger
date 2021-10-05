@@ -4,5 +4,5 @@ This school project game was made for people with anger issues, hence the name A
 ![image](https://user-images.githubusercontent.com/45997197/136005688-c089a046-6c80-4d9a-abae-fb64f8289814.png)
 
 
-##### This is a manual for the game
+##### The game manual
 ![Anger-Management-Manual](https://user-images.githubusercontent.com/45997197/136003065-013a43a8-4737-4642-9d3b-f54fe42d6b63.png)
